@@ -1,0 +1,12 @@
+server:
+  port: 8085
+
+lmstudio:
+  base-url: http://192.168.122.16:1234
+  model: openai/gpt-oss-20b
+  connect-timeout-seconds: 5
+  read-timeout-seconds: 120
+  default-target-lang: Japanese
+
+app:
+  cors-allowed-origins: "*"
